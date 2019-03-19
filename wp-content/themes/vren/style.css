@@ -1,0 +1,192 @@
+/*
+Theme Name: VREB
+Theme URI: https://www.superbad.cn
+Author:  Vren
+Author URI: https://www.superbad.cn
+Version: 1.0
+*/
+
+ /* ===================================global=================================== */
+ html{
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	font-family: "PingFang SC", "Adobe Heiti Std","Microsoft Yahei",arial,helvetica,"Hei Ti","微软雅黑体","FangSong","仿宋",clean,sans-serif !important;
+	color: #333;
+	font-size: 1.5rem;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 2.6rem;
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+h5 {
+	font-size: 1.6rem;
+}
+
+h6 {
+	font-size: 1.4rem;
+}
+
+p {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	line-height: 2;
+	font-weight: 400;
+	color: #666666;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #000;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	color: #000;
+	cursor: pointer;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #143C8E;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.white {
+	color: #fff;
+}
+
+.eee {
+	color: #eee;
+}
+
+.blank {
+	color: #000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+.zoom-out,
+.zoom-in {
+	position: relative;
+	overflow: hidden;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+}
+.zoom-out img,
+.zoom-in img {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+}
+
+.zoom-in:hover img {
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15)
+}
+.zoom-out:hover img {
+	transform: scale(0.85);
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	-o-transform: scale(0.85)
+}
+/* 404 */
+.error-404{
+	text-align: center;
+}
+.img-404{
+	line-height: 0;
+	margin-bottom: 30px;
+}
+.content-404{
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #000;
+}
+.content-404:hover,
+.content-404:focus,
+.content-404:active{
+	color: #ddd;
+}
+@media(max-width: 575px){
+	.img-404 img{
+		max-height: 150px;
+	}
+}
+/* general */
+#main{
+	margin-top: 110px;
+}
+.content-area{
+	padding: 70px 0;
+}
+.section-title{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.section-title span{
+	font-weight: 300;
+}
+@media(max-width:767px){
+	.content-area{
+		padding: 50px 0;
+	}
+	.section-title{
+		font-size: 24px;
+	}
+}
+@media(max-width:575px){
+	.content-area{
+		padding: 35px 0;
+	}
+	.section-title{
+		font-size: 20px;
+	}
+}
+.page-main-title{
+	margin-bottom: 5px;
+}
+.breadcrumbs {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 35px;
+}

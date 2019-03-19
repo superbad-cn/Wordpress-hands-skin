@@ -1,0 +1,25 @@
+{
+  "name": "wenprise/pinyin-slug",
+  "description": "Convert Chinese post, taxonomy tag, uploaded filename to pinyin in WordPress.",
+  "require": {
+    "php": ">=5.6",
+    "overtrue/pinyin": "^3.0",
+    "tareq1988/wordpress-settings-api-class": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+    },
+    "files": [
+      "src/settings.php",
+      "src/slug.php"
+    ]
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amos Lee",
+      "email": "iwillhappy1314@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
