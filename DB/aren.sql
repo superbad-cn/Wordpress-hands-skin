@@ -11,7 +11,7 @@
  Target Server Version : 50719
  File Encoding         : 65001
 
- Date: 19/03/2019 11:13:51
+ Date: 19/03/2019 11:16:35
 */
 
 SET NAMES utf8mb4;
@@ -924,7 +924,7 @@ INSERT INTO `wp_usermeta` VALUES (12, 1, 'wp_capabilities', 'a:1:{s:13:\"adminis
 INSERT INTO `wp_usermeta` VALUES (13, 1, 'wp_user_level', '10');
 INSERT INTO `wp_usermeta` VALUES (14, 1, 'dismissed_wp_pointers', 'wp496_privacy');
 INSERT INTO `wp_usermeta` VALUES (15, 1, 'show_welcome_panel', '0');
-INSERT INTO `wp_usermeta` VALUES (16, 1, 'session_tokens', 'a:1:{s:64:\"cccec931e9bd9e9d5c86030650d808edf49c05994ea6d1594f6bc53d9fffb3bd\";a:4:{s:10:\"expiration\";i:1553137376;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36\";s:5:\"login\";i:1552964576;}}');
+INSERT INTO `wp_usermeta` VALUES (16, 1, 'session_tokens', 'a:2:{s:64:\"cccec931e9bd9e9d5c86030650d808edf49c05994ea6d1594f6bc53d9fffb3bd\";a:4:{s:10:\"expiration\";i:1553137376;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36\";s:5:\"login\";i:1552964576;}s:64:\"9c2eae67dbe5bff43cd9e763f26f8e778b6434f9bda5239edcbb898420d72ea8\";a:4:{s:10:\"expiration\";i:1553138184;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36\";s:5:\"login\";i:1552965384;}}');
 INSERT INTO `wp_usermeta` VALUES (17, 1, 'wp_dashboard_quick_press_last_post_id', '53');
 INSERT INTO `wp_usermeta` VALUES (18, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}');
 INSERT INTO `wp_usermeta` VALUES (19, 1, 'closedpostboxes_dashboard', 'a:4:{i:0;s:19:\"dashboard_right_now\";i:1;s:21:\"dashboard_quick_press\";i:2;s:17:\"dashboard_primary\";i:3;s:18:\"dashboard_activity\";}');
@@ -962,6 +962,6 @@ CREATE TABLE `wp_users`  (
 -- ----------------------------
 -- Records of wp_users
 -- ----------------------------
-INSERT INTO `wp_users` VALUES (1, 'admin', '$P$BXtQ17XChq/AEfEa5WLblF358o2l8o.', 'admin', 'no-reply@aren.test', '', '2018-08-01 10:07:50', '', 0, 'admin');
+INSERT INTO `wp_users` VALUES (1, 'admin', '$P$Bbl48t8hV5665ntq/V6hRTglfyHkMa1', 'admin', 'no-reply@aren.test', '', '2018-08-01 10:07:50', '', 0, 'admin');
 
 SET FOREIGN_KEY_CHECKS = 1;
